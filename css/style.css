@@ -62,5 +62,15 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
+/*** Add notes to inform what you're doing
+*
+*/
+body {
+	font-family:monospace, "consolas";
+}
+
+section {
+	padding: 2.75 rem 0;
+}
 
 
