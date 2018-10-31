@@ -76,6 +76,7 @@ html, body {
 	/** Find out if container(s) are all formatted together, logically
 	 * I would make them so that they're all formatted in the same within a class.
 	 * Example, looking at this page the Containers all look like they would all format in a row.
+	 * I MUTED the selector for container at the top to center content.
 	 */
 .container {
 	/* margin: all sides */
