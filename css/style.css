@@ -62,25 +62,58 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
-/*** Add notes to inform what you're doing
+/*** Add notes to inform what you're doing with CSS
 *
 */
-body {
-	font-family:monospace, "consolas";
+html, body {
+	margin-right: 0px;
+	margin-left: 0px;
+	max-width: 960px;
+	padding-right: 10px;
+	padding-left: 10px;
+	box-sizing: border-box;
 }
-
-section {
-	padding: 2.75 rem 0;
-}
-
-header {
-	background-color: #333333;
-	color: lime;
-}
-
-header h1 {
+	/** Find out if container(s) are all formatted together, logically
+	 * I would make them so that they're all formatted in the same within a class.
+	 * Example, looking at this page the Containers all look like they would all format in a row.
+	 */
+.container {
+	/* margin: all sides */
+	margin: 10px;
 	display: inline-block;
-	margin right: 2rem;
-	font-size: 2 0 rem;
+	text-align: center;
+	position: relative;
 }
+h1 {
+	text-decoration-color: lime;
+	background-color: gray;
+	border-style: hidden;
+}
+	/** According to MDN, when "Clearfix" is applied to a parent element, it will clear the floats.
+	* I need the child elements to go from left to right.
+	 */
+}
+.clearfix {
+	content: "";
+	visibility: hidden;
+	display: block;
+	clear: both
+}
+
+table {
+	background-color: gray;
+	border: 1px solid black;
+	padding: 2px;
+	display: inline-block;
+}
+	/** Figure out how to separate containers w/o changing HTML markup so that they can be manipulated separately.
+	*
+	 */
+div {
+	justify-content: flex-end;
+}
+
+footer-content {
+	background-color: #333333;
+
 }
