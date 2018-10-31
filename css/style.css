@@ -10,11 +10,11 @@ html, body {
 	box-sizing: border-box;
 }
 
-.container {
+/**.container {
 	margin: 0 auto;
 	padding: 0 2rem;
 }
-
+*/
 .clearfix {
 	clear: both;
 }
