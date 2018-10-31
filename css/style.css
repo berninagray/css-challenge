@@ -92,7 +92,6 @@ h1 {
 	/** According to MDN, when "Clearfix" is applied to a parent element, it will clear the floats.
 	* I need the child elements to go from left to right.
 	 */
-}
 .clearfix {
 	content: "";
 	visibility: hidden;
@@ -119,5 +118,4 @@ div {
 
 footer-content {
 	background-color: #333333;
-
 }
