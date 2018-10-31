@@ -113,6 +113,10 @@ div {
 	justify-content: flex-end;
 }
 
+	/** No changes are being made due to the rules set at the top. Figure out a way to implement shorthand in and
+	* possibly replacing code at the top. Maybe Flex-box?
+	 */
+
 footer-content {
 	background-color: #333333;
 
