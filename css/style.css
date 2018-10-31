@@ -98,6 +98,12 @@ h1 {
 	display: block;
 	clear: both
 }
+	/** How to select individual image?
+	*
+	 */
+img alt:captain-janeway.jpg {
+	resize: horizontal;
+}
 
 table {
 	background-color: gray;
